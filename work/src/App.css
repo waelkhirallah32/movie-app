@@ -1,0 +1,87 @@
+
+.App{
+  background-color: rgb(109, 189, 154); 
+  text-align: center;
+}
+h1{
+  color: rgb(102, 96, 96);
+  text-shadow: 2px 3px 3px black;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  padding-top: 10px; 
+}
+input{
+  width: 600px;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.movie{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background-color: rgb(176, 211, 196);
+  padding-top: 30px;
+}
+  
+.movie img{
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+  margin-top: 30px;
+ 
+}
+h2{
+  color:gray;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 3px black;
+  display: block;
+  width: 250px;
+  background-color: rgb(109, 189, 154); 
+  margin-left: 100px;
+  box-shadow:  2px 3px 3px wheat;
+  margin-top: -9px;
+}
+#res{
+  margin-top: -20px;
+}
+ 
+
+.search{
+  position: relative;
+  left: 400px;
+  top: -40px;
+}
+.add input{
+  width: 150px;
+  height: 20px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  position: relative;
+  left: 600px;
+  text-align: center;
+}
+.btn3{
+  background-color: rgb(226, 89, 65);
+  border-radius: 5px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.btn1 ,.btn2{
+  background-color: cadetblue;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+label{
+  text-transform: uppercase;
+  font-weight: 800;
+  color: black;
+}
+
+
+
+ 
+
+
